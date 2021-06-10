@@ -1,0 +1,398 @@
+.set-1 {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.set-2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  margin-bottom: 0px;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: Jost Regular;
+  margin: 0;
+  padding: 0;
+}
+
+#introduction{
+    background: url('images/background picture.png') no-repeat left top, #9A1212;
+}
+
+.menu{
+    justify-content: flex-end;
+    display:flex;
+    flex-grow:1;
+}
+
+.media-menu {
+
+  background-size: cover;
+  width: 25px;
+  height: auto;
+  margin-left: 15px !important;
+}
+
+.button-a {
+  background-color: #f3f3f3; 
+  color: black; 
+  height:36px !important;
+  width:120px !important;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.button-b {
+  background-color: #f3f3f3; 
+  color: black; 
+  height:36px !important;
+  width:120px !important;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.bm {
+  margin-left: 15px !important;
+}
+
+.info3-1 {
+  margin-top: 100px;
+  margin-bottom: 125px;
+}
+
+.big {
+  background-color: #9A1212 !important;
+  color: white;
+  border-radius: 50px !important;
+  height: 85px !important;
+  width: 310px !important;
+}
+
+.info4-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text1{
+  font-size: 16px
+}
+
+.text1big {
+  font-size: 44px;
+  color:white;
+}
+
+.text2 {
+  font-size: 64px;
+  padding: -10px 0 -10px 0;
+  margin: -20px 0 -20px 0;
+}
+
+.text3 {
+  font-size: 96px;
+  padding: auto;
+  margin-top: -30px;
+}
+
+.text4 {
+  font-size: 18px;
+  padding-left: 170px;
+}
+
+.text5 {
+  font-size: 92px;
+}
+
+.text {
+  text-align: center;  
+  font-size: 29px !important;
+  color: #9A1212;
+}
+
+.footer{
+  font-size: 24px; 
+  background-color: #f3f3f3;   
+  height: 100px;
+  width: 100%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 7% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+#footer {
+  background-color: #F3F3F3;
+}
+
+.text6 {
+  font-size: 36px;
+}
+
+.text7 {
+  font-size: 32px;
+  background-color: #9A1212;
+  border-radius: 90px !important;
+  color: white !important;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.text9 {
+  font-size: 28px;
+}
+
+.text10 {
+  padding-right: 80px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.info2-2 {
+  align-items: center; 
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.red-box{
+  background-color: #9A1212;
+  border-radius: 80px;
+  width: 790px;
+  height: 340px;    
+  display: flex;
+}
+
+.empty-space{
+    flex-basis: 50%;
+    flex-shrink: 10;
+}
+
+.red-line{
+  background-color: #9A1212;
+  width: 100%;
+  height: 70px;
+  flex-shrink: 10;
+}
+
+.leaves{
+    flex-basis:50%;
+    flex-grow: 10;
+}
+
+.leaves2 {
+  position: absolute;
+  right: 260px;
+  width: auto;
+  min-height: 112vh;
+}
+
+.leaves3{
+    position: absolute; 
+    height: 250px; 
+    width:auto;  
+    margin-left: 75%;
+    margin-top: 25%;
+}
+
+.leaves4{
+    position: absolute; 
+    height: 250px; 
+    width:auto; 
+    margin-bottom: 100px;
+    margin-top: 300px;
+}
+
+.img1 {
+  height: 340px;
+  border-radius: 90px !important;
+  margin-right: -20px;
+}
+
+.img2 {
+width: 170px;
+height: 266px;
+margin-right: 30px;
+}
+
+.img3 {
+width: 174px;
+height: 192px;
+}
+
+.img {
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px !important;
+  display: flex;
+  flex-shrink: 3;
+}
+
+.btn-carousel-left {
+  margin-left: -15px;
+}
+
+.btn-carousel-right {
+  margin-left: 15px;
+}
+
+.back{
+    height: 55px; 
+    width: auto
+}
+
+@media(max-width:1026px){
+       #introduction{ background-size: 800px auto !important;
+       background-position: left center;}
+}
+@media(max-width:800px){
+       #introduction{ background-size: 0 !important}
+}
+
+@media(max-width:500px){.menu{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;    
+    flex-grow:1;
+}}
+
+
+@media(max-width:500px){
+    .text2{font-size: 40px;}
+    .text3{font-size: 56px;}
+    .text4{font-size: 14px;}
+    .leaves{background-size: 200px auto}
+}
+
+@media(max-width:400px){
+    .text4-1{
+    padding-left: 75px
+}
+}
+
+media (max-width: 980px)
+.leaves2 {
+    height: 0;
+}
+
+@media(max-width:900px){
+    .empty-space{flex-basis:30%}
+    .leaves{flex-basis:70%}
+}
+@media(max-width:800px){
+    .empty-space{flex-basis:0%}
+    .leaves{flex-basis:100%}
+}
+
+@media(max-width:1000px){
+    .leaves2{
+         height: 0px !important;
+         width: 0px !important}
+}
+@media(max-width:600px){
+    .img{
+        height: 120px;
+        width:100px;
+        margin-left: 0px;
+    }
+    .text{
+        font-size:20px
+    }
+    .btn-carousel{
+        height: 30px
+    }
+    .footer{font-size: 12px}
+}
+@media(max-width:400px){
+    .img{
+        height: 70px;
+        width: 50px
+    }
+    .text{
+        font-size:12px
+    }
+    .btn-carousel{
+        height: 20px
+    }
+}
+
+@media(max-width:800px){
+    .red-box{width: 700px;
+             height:300px}
+    .img1{height: 300px}
+    .text7{font-size:26px}
+    .text6{font-size:32px}
+}
+@media(max-width:600px){
+    .red-box{width: 500px;
+             height:200px;
+             border-radius: 70px;}
+    .img1{height: 200px}
+    .text7{font-size:18px}
+    .text6{font-size:22px}
+    .logo{height: 50px}
+    .back{height: 30px}
+}
+@media(max-width:400px){
+    .red-box{width: 320px;
+             height:170px;
+             border-radius: 50px;}
+    .img1{height: 170px}
+    .text7{font-size:15px}
+    .text6{font-size:20px}
+}
+
+@media(max-width:700px){
+    .text1big{font-size:22px}
+    .button-big{width:200px!important;height: 50px!important}
+}
+
+@media(max-width:900px){
+    .img2{height:180px}
+}
+
+@media(max-width:700px){
+    .img2{height:115px}
+    .leaves4{height: 80px}
+}
+
+@media(max-width:500px){
+    .img2{height:70px;
+          margin-left: 5px;
+          margin-right: 5px}
+}
+
+@media(max-width:800px){
+    .img3{
+        height: 74px
+    }
+    .text9{font-size: 20px}
+    .text10{font-size: 15px}
+}
+
+@media(max-width:700px){
+    .text5{font-size:70px}
+}
+
+@media(max-width:480px){
+    .text5{font-size:48px;
+           margin-left: 28px}
+}
